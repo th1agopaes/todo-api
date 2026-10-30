@@ -11,7 +11,7 @@ Node.js 26 · TypeScript · Express 5 · PostgreSQL 18 · Drizzle ORM · Zod · 
 ## Roadmap
 
 - [x] Fase 0 - Escopo e planejamento
-- [ ] Fase 1 - Fundação do projeto
+- [x] Fase 1 - Fundação do projeto
 - [ ] Fase 2 - CI com GitHub Actions
 - [ ] Fase 3 - Banco de dados
 - [ ] Fase 4 - Criar e listar tarefas
