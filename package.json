@@ -4,7 +4,7 @@
   "private": true,
   "description": "API REST de tarefas com Node.js, TypeScript, Express e PostgreSQL",
   "license": "MIT",
-  "author": "Thiago Paes",
+  "author": "Thiago Paes de Barros Costa",
   "type": "module",
   "engines": {
     "node": ">=26"
@@ -16,16 +16,23 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "express": "^5.3.0"
+    "drizzle-orm": "^0.45.4",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.4",
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
     "@types/supertest": "^7.2.1",
+    "drizzle-kit": "^0.31.11",
     "supertest": "^7.3.1",
     "typescript": "^7.0.2",
     "vitest": "^5.0.5"
