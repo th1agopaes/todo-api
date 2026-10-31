@@ -22,6 +22,12 @@ Node.js 26 · TypeScript · Express 5 · PostgreSQL 18 · Drizzle ORM · Zod · 
 
 ## Como rodar localmente
 
+cp .env.example .env
+podman-compose up -d
+npm ci
+npm run db:migrate
+npm run dev
+
 ## Licença
 
 MIT
