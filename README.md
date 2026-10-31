@@ -16,7 +16,7 @@ Node.js 26 · TypeScript · Express 5 · PostgreSQL 18 · Drizzle ORM · Zod · 
 - [x] Fase 1 - Fundação do projeto
 - [x] Fase 2 - CI com GitHub Actions
 - [x] Fase 3 - Banco de dados
-- [ ] Fase 4 - Criar e listar tarefas
+- [x] Fase 4 - Criar e listar tarefas
 - [ ] Fase 5 - Atualizar e excluir tarefas
 - [ ] Fase 6 - Polimento e v1.0.0
 
