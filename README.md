@@ -27,6 +27,7 @@ podman-compose up -d
 npm ci
 npm run db:migrate
 npm run dev
+npm test # usa o banco todo_test, criado automaticamente pelo container
 
 ## Licença
 
