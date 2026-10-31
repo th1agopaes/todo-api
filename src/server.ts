@@ -1,7 +1,6 @@
 import { createApp } from "./app.ts";
+import { env } from "./config/env.ts";
 
-const port = Number(process.env.PORT ?? 3000);
-
-createApp().listen(port, () => {
-  console.log(`🚀 API rodando em https://localhost:${port}`);
+createApp().listen(env.PORT, () => {
+  console.log(`🚀 API rodando em http://localhost:${env.PORT}`);
 });
